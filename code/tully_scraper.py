@@ -1,8 +1,9 @@
+
 import re
 from playwright.sync_api import Playwright, sync_playwright
-from menuitemextractor import extract_menu_item
-from menuitem import MenuItem
+from code.menuitemextractor import extract_menu_item
 import pandas as pd
+
 
 def tullyscraper(playwright: Playwright) -> None:
     browser = playwright.chromium.launch(headless=True)  # Change to False if debugging
@@ -34,8 +35,6 @@ def tullyscraper(playwright: Playwright) -> None:
 
     df = pd.DataFrame(extracted_items)
     import os
-    os.makedirs("cache", exist_ok=True)  # Ensure the 'cache' directory exists
-    df.to_csv("cache/tullys_menu.csv", index=False)
     os.makedirs("cache", exist_ok=True)  # Ensure the 'cache' directory exists
     df.to_csv("cache/tullys_menu.csv", index=False)
 
