@@ -1,8 +1,7 @@
 # Reflection
 
-Student Name:  name
-Sudent Email:  email
-
+Student Name:  Ansh Verma
+Sudent Email:  averma11@syr.edu
 ## Instructions
 
 Reflection is a key activity of learning. It helps you build a strong metacognition, or "understanding of your own learning." A good learner not only "knows what they know", but they "know what they don't know", too. Learning to reflect takes practice, but if your goal is to become a self-directed learner where you can teach yourself things, reflection is imperative.
@@ -23,3 +22,4 @@ Examples:
 
 `--- Reflection Below This Line ---`
 
+My main issues with this assignment were not really related to the assignment itself, but vscode being annoying. Initially, the tests didn't even show up, as pytest wasn't installed, despite me working with it on every previous assignment. I also had issues with the "code" package not working for the second part of the assignment, despite working fine on the previous part. As for the assignment itself, this was mostly a review of webscraping and the specific syntax I needed to know. 
